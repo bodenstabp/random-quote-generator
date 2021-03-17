@@ -4,7 +4,7 @@ const citation = document.querySelector('.citation')
 const year = document.querySelector('.year')
 let previousQuotes = [];
 let randomQuote
-const bgColors = [`#333`, `#4f3233`, `#21a4bb`, `#ab4599`, `#ae0000`, `orange`]
+const bgColors = [`#333`, `#4f3233`, `#21a4bb`, `#ab4599`, `#ae0000`, `orange`, ``]
 
 /*** 
  * `quotes` array 
