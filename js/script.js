@@ -4,26 +4,26 @@ const citation = document.querySelector('.citation')
 const year = document.querySelector('.year')
 let previousQuotes = [];
 let randomQuote
-const bgColors = [`#333`, `#4f3233`, `#21a4bb`, `#ab4599`, `#ae0000`, `orange`, ``]
+const bgColors = [`#333`, `#4f3233`, `#21a4bb`, `#ab4599`, `#ae0000`, `orange`]
 
 /*** 
  * `quotes` array 
 ***/
   const quotes = [
     {
-      quote : `"It is no evil for things to undergoe change and no good for things to subsist in the absence of change"`,
+      quote : `It is no evil for things to undergoe change and no good for things to subsist in the absence of change`,
       source : `Marcus Aurelius`,
       citation : `Meditations`,
       tag : `Philosophy`
     },
     {
-      quote : `"You must  know that it is no easy thing for a principle to become one's own, unless each day they maintain it and hear it maintained, as well as work it out in life"`,
+      quote : `You must  know that it is no easy thing for a principle to become one's own, unless each day they maintain it and hear it maintained, as well as work it out in life`,
       source : `Epictetus`,
       citation : `The Golden Teachings of Epictetus`,
       tag : `Philosophy`
     },
     {
-      quote : `"Be assured that you will find Minerva no less fond of traversing the hills than Diana."`,
+      quote : `Be assured that you will find Minerva no less fond of traversing the hills than Diana.`,
       source : `Pliny the Younger`,
       citation : `Letter to Tacitus`,
       tag : `History`
@@ -36,7 +36,7 @@ const bgColors = [`#333`, `#4f3233`, `#21a4bb`, `#ab4599`, `#ae0000`, `orange`, 
       tag : `Poetry`
     },
     {
-      quote : `"The haft of the arrow had been feathered with one of the eagle's own plumes. We often give our enemies the means of our own destruction."`,
+      quote : `The haft of the arrow had been feathered with one of the eagle's own plumes. We often give our enemies the means of our own destruction.`,
       source : `Aesop`,
       tag : `Short Stories`
     }
